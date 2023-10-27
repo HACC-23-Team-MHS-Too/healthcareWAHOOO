@@ -9,7 +9,9 @@ return (
       </Head>
 
       <h1 style={{ color: 'red' }}>IDK put something like an interactive map on here</h1>
-      <p style={{ color: 'orange' }}>google maps yeah!</p>
+      <p style={{ color: 'orange'}} >google maps yeah!</p>
+
+      
       </>
       );
 }
