@@ -11,10 +11,11 @@ datasource db {
 }
 
 model Post {
-    id        String      @id @default(auto()) @map("_id") @db.ObjectId
-    name      String
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
+    id              String      @id @default(auto()) @map("_id") @db.ObjectId
+    name            String
+    streetAddress   String
+    coordinates     Json
+    phoneNumber     String
 
     @@index([name])
 }
