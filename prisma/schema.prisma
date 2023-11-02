@@ -16,6 +16,8 @@ model Post {
     streetAddress   String
     coordinates     Json
     phoneNumber     String
+    services        Json
+    website         String
 
     @@index([name])
 }
