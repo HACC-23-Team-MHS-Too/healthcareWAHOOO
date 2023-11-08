@@ -77,7 +77,7 @@ return (
             <area shape="rect"coords="34, 44, 270,350" href="placeholder.htm"></area>
           </map> 
         <br/>
-          <button className="rounded bg-green-600 px-4 py-2 text-white hover:bg-blue-700">Submit</button>
+          <button className="rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">Submit</button>
           
         </div>
 
